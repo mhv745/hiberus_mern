@@ -1,0 +1,15 @@
+{
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"extends": ["eslint:recommended", "eslint-config-prettier"],
+	"env": {
+		"node": true,
+		"jest": true,
+		"es6": true
+	}
+}
