@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import authRoutes from '../modules/auth/routes.js'
-import usersRoutes from '../modules/users/routes.js'
-import albaranesRoutes from '../modules/albaranes/routes.js'
+import authRoutes from '../modules/auth/routes'
+import usersRoutes from '../modules/users/routes'
+import albaranesRoutes from '../modules/albaranes/routes'
 
 const router = Router()
 
@@ -12,6 +12,4 @@ router.use('/auth', authRoutes)
 router.use('/users', usersRoutes)
 router.use('/albaranes', albaranesRoutes)
 
-
 export const routes = router
-
